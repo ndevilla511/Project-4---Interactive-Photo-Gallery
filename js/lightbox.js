@@ -58,7 +58,7 @@ $('#leftarrow').click(function() {
             $image.attr("src", $("a[href='" + $image.attr('src') + "']").prevAll(".thumbnail:not(.hidden)").eq(0).attr("href"));
         }
     }).animate({"margin-left": "-=100", opacity: 1}, 700, "linear", function() {
-        $polaroid.css({"margin-right": "auto","margin-left": "auto"})
+        $polaroid.css({"margin-right": "auto","margin-left": "auto"});
     });
 });
 
@@ -74,7 +74,7 @@ $('#rightarrow').click(function() {
             $image.attr("src", $("a[href='" + $image.attr('src') + "']").nextAll(".thumbnail:not(.hidden)").eq(0).attr("href"));
         }
     }).animate({"margin-right": "-=100", opacity: 1}, 700, "linear", function() {
-        $polaroid.css({"margin-right": "auto","margin-left": "auto"})
+        $polaroid.css({"margin-right": "auto","margin-left": "auto"});
     });
 });
 
